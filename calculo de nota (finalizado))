@@ -1,4 +1,4 @@
-package testeanulo;
+ackage testeanulo;
 
 public class original {
 
@@ -170,6 +170,7 @@ System.out.println("-----------------------------BEM VINDO AO SISTEMA DE NOTAS:-
 	
 	
 }
+
 
 
 package testeanulo;
@@ -361,178 +362,6 @@ public void faltas(){
 }
 }
 
-package testeanulo;
-
-public class original {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-		int [] aluno = new int [24];
-		int A1[] = {35,63,61};
-	    int A2[] = {64,97,36};
-	    int A3[] = {68,74,51};
-	    int A4 [] = {66,98,62};
-	    int A5 [] = {80,65,41};
-	    int A6[] = {83,68,77};
-	    int A7 [] = {38,53,80};
-	    int A8 []= {53,96,89};
-	    int A9 []= {45,61,68};
-	    int A10 []= {32,41,85};
-	    int A11[]= {4,66,39};
-	    int A12[]= {42,93,57};
-	    int A13[]= {59,87,89};
-	    int A14[]= {44,50,62};
-	    int A15[]= {83,92,32};
-	    int A16[]= {36,38,76};
-	    int A17[]= {41,52,87};
-	    int A18[]= {87,75,50};
-	    int A19[]= {36,46,48};
-	    int A20[]= {91,88,92};
-	    int A21[]= {38,90,98};
-	    int A22[]= {96,37,100};
-	    int A23[]= {73,71,75};
-	    int A24[]= {50,95,84};
-	    
-	    System.out.println("------------------------------------------------------------------------------------------------");
-System.out.println("-----------------------------BEM VINDO AO SISTEMA DE NOTAS:---------------------------------------------");
-	    
-	    calculo x = new calculo();{
-	    	
-	    	x.conta(A1);{
-	    	 System.out.println("_________ Aluno: Eduardo__________ " );
-	    	 System.out.println("                       " );
-	    	}
-	    	
-	    	x.conta(A2);
-	    	{
-		    	 System.out.println("_________Aluno: Murilo___________ " );
-		    	}
-	    	 System.out.println("                       " );
-	    	x.conta(A3);
-	    	{
-		    	 System.out.println("_________Aluno: Guilherme__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A4);
-	    	{
-		    	 System.out.println("_________Aluno: Flavia __________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A5);
-	    	{
-		    	 System.out.println("________Aluno:_ Ruan__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A6);
-	    	{
-		    	 System.out.println("________Aluno:_ Arnando__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A7);
-	    	{
-		    	 System.out.println("________Aluno:_ Lucas__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A8);
-	    	{
-		    	 System.out.println("________Aluno:_ Fabio__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A9);
-	    	{
-		    	 System.out.println("________Aluno:_Alisson__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A10);
-	    	{
-		    	 System.out.println("________Aluno:_ Felipe__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A11);
-	    	{
-		    	 System.out.println("_______Aluno:__ Rachel__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A12);
-	    	{
-		    	 System.out.println("________Aluno:_ Jouy__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A13);
-	    	{
-		    	 System.out.println("________Aluno:_ François____________________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A14);
-	    	{
-		    	 System.out.println("_______Aluno:__ Dâmaris__________ " );
-		    	 
-		    	}
-	    	x.conta(A15);
-	    	{
-		    	 System.out.println("________Aluno:_ Leonardo__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A16);
-	    	{
-		    	 System.out.println("________Aluno:_ Guilherme __________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A17);
-	    	{
-		    	 System.out.println("_______Aluno:__ Wesley__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A18);
-	    	{
-		    	 System.out.println("________Aluno:_Yuri _________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A19);
-	    	{
-		    	 System.out.println("_______Aluno:__ Kira__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A20);
-	    	{
-		    	 System.out.println("_______Aluno:__ Cleici__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A21);
-	    	{
-		    	 System.out.println("_______Aluno:__ João Moacir__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A22);
-	    	{
-		    	 System.out.println("________Aluno:_ Bruno __________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.conta(A23);
-	    	{
-		    	 System.out.println("________Aluno:_ Elcio__________ " );
-		    	 System.out.println("                       " );
-		    	 {
-			    	 System.out.println("                       " );
-			    	}
-		    	}
-	    	x.conta(A24);
-	    	{
-		    	 System.out.println("_________ Criscia__________ " );
-		    	 System.out.println("                       " );
-		    	}
-	    	x.faltas();
-	    	
-	    }
-	    
-	   
-	}
-
-	
-	
-	
-}
 
 
 	 
